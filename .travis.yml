@@ -11,6 +11,4 @@ script:
   - coverage erase
   - coverage run --source fakeredis.py test_fakeredis.py
 notifications:
-  email:
-    - js@jamesls.com
-after_success: coveralls
+  email: false
